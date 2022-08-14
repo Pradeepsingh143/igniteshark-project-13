@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --primaryColor: #7030cc;
+    --secondaryColor: #1bbcef;
+    --textColor: #1d1b1b;
+    --textSecondryColor: #ffffff;
+    --buttonBgColor: #1bbcef;
+    --buttonColor: #ffffff;
+}
+
+/* resuable css */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.col-w50 {
+    width: 50%;
+}
+
+.w-90 {
+    width: 1280px;
+    margin: auto;
+}
+
+.w-fuild {
+    width: 1400px;
+    margin: auto;
+}
+
+.w-boxed {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 14px 42px;
+    background-color: var(--buttonBgColor);
+    color: var(--buttonColor);
+    cursor: pointer;
+}
+
+.graident-btn {
+    background: linear-gradient(0deg,
+            rgba(19, 79, 177, 1) 0%,
+            rgba(0, 166, 255, 1) 100%);
+    border: none;
+    color: var(--buttonColor);
+    width: 200px;
+    height: 52px;
+    font-size: 17px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+/* reusable css end */
+
+/* navbar */
+
+.header-section{
+    background-color: var(--primaryColor);
+}
+
+.header-container{
+    height: 100px;
+}
+
+.logo-column > img{
+    width: 120px;
+    filter: invert(1);
+}
+
+.nav-item{
+    margin-right: 30px;
+    font-weight: 500;
+    color: var(--textSecondryColor);
+}
+
+.active{
+    color: var(--buttonBgColor);
+}
+
+/* hero-container */
+
+
+.hero-section {
+    height: 600px;
+    background-color: var(--primaryColor);
+    color: var(--textSecondryColor);
+}
+
+.hero-text > h1 {
+    font-size: 62px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+.hero-text > p {
+    opacity: 0.8;
+}
+
+/* section-2 */
+
+.section-2 > .container { 
+    gap: 100px;
+    padding-top: 70px;
+}
+
+.list-items > h2 {
+    font-size: 42px;
+}
+.section-2 .list-1{
+    list-style-image: url("img/right-arrow.png");
+}
+
+.section-2 .list-2{
+    list-style-image: url("img/share.png");
+}
+.section-2 .list-3{
+    list-style-image: url("img/share\ \(1\).png");
+}
+
+.section-2 ul > li > h2{
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+/* section -3 serives section */
+.section-3 > .container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.services-heading{
+    width: 600px;
+    font-family: roboto;
+    margin: auto;
+    text-align: center;
+}
+
+.services-heading > h1{
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.services-cards{
+    margin-top: 50px;
+    padding: 10px;
+    gap: 20px;
+    height: auto;
+}
+
+.service-card{
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    height: 320px;
+    width: 270px;
+}
+
+
+.service-card:hover{
+    box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.3);
+}
+
+.service-card > img{
+    width: 80px;
+}
+
+.service-card > h2{
+   margin-bottom: 0;
+   margin-top: 20px;
+}
