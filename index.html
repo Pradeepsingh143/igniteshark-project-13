@@ -6,52 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-13</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
     <header class="header-section" id="header">
         <!-- logo -->
-        <div class="header-container align-center flex w-boxed">
+        <div class="header-container align-center plr-20 flex w-boxed">
         <div class="logo-column grow-1">
             <img src="img/Logo.png" alt="logo" id="logo">
         </div>
         <!-- menu -->
         <nav class="navbar" id="navbar">
-            <ul class="nav-items list-style-none flex">
+            <ul class="nav-items list-style-none align-center flex">
                 <li class="nav-item active">Home</li>
                 <li class="nav-item">About Us</li>
                 <li class="nav-item">Pages</li>
                 <li class="nav-item">Agent</li>
                 <li class="nav-item">Blog</li>
                 <li class="nav-item">Subscribe</li>
+                <img src="img/icons8-menu.svg" alt="Hamburger" class="mobile-menu">
             </ul>
         </nav>
         <!-- button -->
         <div class="btn-column">
             <button class="btn">Free Trial</button>
         </div>
-    </div>
+        </div>
     </header>
     <section class="hero-section">
-        <div class="hero-container flex w-boxed align-center">
-        <div class="left-col col-w50 hero-text">
-            <h1>Codext one of <br>the best system <br>in SAAS.</h1>
+        <div class="hero-container plr-20 flex md-flex-col-reverse w-boxed align-center">
+        <div class="left-col col-w50 md-col-w100 hero-text">
+            <h1>Codext one of the best system in SAAS.</h1>
             <p>
                 We provide the best offer of unlimited web hosting. The most complete
 features, affordable prices, and 24/7 technical support are at your
 disposal.
             </p>
         </div>
-        <div class="right-col col-w50">
+        <div class="right-col col-w50 md-col-w100">
             <img src="img/30495 [Converted]-01(1).svg" alt="" class="hero-img" />
         </div>
     </div>
     </section>
     <section class="section-2">
-        <div class="container justify-between flex w-boxed">
-            <div class="col-w50 left-col">
+        <div class="container justify-between plr-20 flex md-flex-col w-boxed">
+            <div class="col-w50 md-col-w100 left-col">
                 <img src="img/Saas illustration-01.svg" alt="">
             </div>
-            <div class="col-w50 right-col list-items">
+            <div class="col-w50 md-col-w100 right-col list-items">
                <h2>It's helpfull for operating system</h2>
                <ul class="list-1">
                 <li><h2>Ultra fast & secure</h2>
@@ -69,11 +71,11 @@ disposal.
         </div>
     </section>
     <section-3 class="section-3">
-        <div class="container w-boxed">
+        <div class="container plr-20 w-boxed">
             <div class="services-heading">
-                <h1 class="text-capitalize">we provide best feature<br> for customer</h1>
+                <h1 class="text-capitalize">we provide best feature for customer</h1>
             </div>
-            <div class="services-cards justify-between flex">
+            <div class="services-cards justify-center flex flex-wrap">
                 <div class="service-card flex-col justify-center align-center text-center">
                     <img src="img/web-developing.svg" alt="clean-code">
                     <h2>Clean Code</h2>

@@ -128,6 +128,10 @@ p {
     list-style: none;
 }
 
+.plr-20{
+    padding: 0 20px;
+}
+
 /* reusable css end */
 
 /* navbar */
@@ -145,6 +149,10 @@ p {
     filter: invert(1);
 }
 
+.nav-items{
+    padding-right: 20px;
+}
+
 .nav-item{
     margin-right: 30px;
     font-weight: 500;
@@ -155,20 +163,29 @@ p {
     color: var(--buttonBgColor);
 }
 
+.mobile-menu{
+    display: none;
+    filter: invert(1);
+}
+
 /* hero-container */
 
 
 .hero-section {
-    height: 600px;
     background-color: var(--primaryColor);
     color: var(--textSecondryColor);
 }
 
+.hero-container{
+    min-height: 600px;
+}
+
 .hero-text > h1 {
-    font-size: 62px;
+    font-size: 60px;
     font-weight: 600;
     letter-spacing: 2px;
-    line-height: 60px;
+    line-height: 65px;
+    padding-right: 100px;
 }
 
 .hero-text > p {

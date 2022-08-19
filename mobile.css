@@ -1,0 +1,153 @@
+  @media only screen and (max-width: 1024px) {
+    /* hero-section */
+    .hero-container{
+        min-height: 450px;
+    }
+    .hero-text > h1 {
+        font-size: 52px;
+        padding-right: 0;
+    }
+    .hero-text > p {
+        opacity: 0.8;
+    }
+
+    /* section-2 */
+    .section-2 > .container { 
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .list-items > h2 {
+        font-size: 36px;
+    }
+
+    .section-2 ul > li > h2{
+        font-size: 20px;
+    }
+
+    .section-2 ul > li > p{
+        font-size: 16px;
+    }
+  }
+  
+  /* lg */
+  @media only screen and (max-width: 900px) {
+
+    .logo-column > img{
+        width: 100px;
+        filter: invert(1);
+    }
+
+    .nav-item{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        width: 28px;
+    }
+
+    .btn-column > .btn{
+        font-size: 17px;
+        padding: 10px 30px;
+    }
+
+      /* hero-section */
+      .hero-text > h1 {
+        font-size: 46px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* section-2 */
+    .list-items > h2 {
+        font-size: 36px;
+    }
+
+    /* service */
+    .services-heading{
+        width: 100%;
+        font-family: roboto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .services-heading > h1{
+        font-size: 36px;
+    }
+  }
+
+
+  /* md */
+  @media only screen and (max-width: 768px) {
+    .md-flex-col{
+        flex-direction: column;
+    }
+    .md-flex-col-reverse{
+        flex-direction: column-reverse;
+    }
+    .md-col-w100{
+        width: 100%;
+    }
+
+         /* hero-section */
+         .hero-text > h1 {
+            font-size: 36px;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
+
+    /* section-2 */
+    .list-items > h2 {
+        font-size: 32px;
+    }
+
+    /* service */
+    .services-heading > h1{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .services-heading{
+        text-align: start;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .mobile-menu{
+        display: flex;
+        width: 25px;
+    }
+
+    .btn-column > .btn{
+        font-size: 15px;
+        padding: 8px 25px;
+    }
+
+         /* hero-section */
+         .hero-text > h1 {
+            font-size: 32px;
+        }
+        .hero-text > p {
+            font-size: 14px;
+        }
+
+        /* section-2 */
+    .list-items > h2 {
+        font-size: 28px;
+    }
+
+    /* service */
+    .services-heading > h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
+     
+    .service-card{
+        height: 280px;
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+   
+  }
+  
